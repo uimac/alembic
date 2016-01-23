@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "uimac/alembic",
+      "D:\\uimac\\cabbage_sandbox"
+    ]
+  ],
+  "_from": "uimac/alembic",
+  "_id": "alembic@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/alembic",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/uimac/alembic/master/package.json",
+      "gitUrl": "git://github.com/uimac/alembic.git",
+      "httpsUrl": "git+https://github.com/uimac/alembic.git",
+      "shortcut": "github:uimac/alembic",
+      "ssh": "git@github.com:uimac/alembic.git",
+      "sshUrl": "git+ssh://git@github.com/uimac/alembic.git",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "uimac/alembic",
+    "rawSpec": "uimac/alembic",
+    "scope": null,
+    "spec": "github:uimac/alembic",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "git://github.com/uimac/alembic.git#9a859845979ca232e4d56524ecfc7a8bf0316cde",
+  "_shasum": "db134d655e7e77c24f0ef54eeab02c6e60f492ad",
+  "_shrinkwrap": null,
+  "_spec": "uimac/alembic",
+  "_where": "D:\\uimac\\cabbage_sandbox",
+  "author": {
+    "name": "Kazuma Hatta"
+  },
+  "bugs": {
+    "url": "https://github.com/uimac/alembic-src/issues"
+  },
+  "cpu": [
+    "x64"
+  ],
+  "dependencies": {},
+  "description": "alembic io",
+  "devDependencies": {},
+  "gitHead": "9a859845979ca232e4d56524ecfc7a8bf0316cde",
+  "gypfile": true,
+  "homepage": "ttps://github.com/uimac/alembic",
+  "keywords": [
+    "alembic",
+    "geometry cache",
+    "node.js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "alembic",
+  "optionalDependencies": {},
+  "os": [
+    "darwin",
+    "win32"
+  ],
+  "private": false,
+  "readme": "# alembic\r\nalembic node.js native plugin\r\n\r\n## install\r\n```\r\nnpm install alembic\r\n```\r\n\r\n## build\r\n```\r\nnpm install alembic-src\r\n```\r\n\r\n## Features\r\n\r\n|feature|current status|\r\n| --------------- |---------------|\r\n| load | o |\r\n| save | x |\r\n| change time | o |\r\n\r\n|primitive|current status|\r\n| --------------- |---------------|\r\n| mesh | o |\r\n| point | o |\r\n| curve | x |\r\n| nurbs | x |\r\n| camera | only transform |\r\n| material | x |\r\n| light | x |\r\n\r\n## Usage\r\n\r\n\r\nput alembc_octopus for test\r\n```\r\n - node_modules - umabcio - ・・・\r\n - alembic_octopus.abc\r\n```\r\n\r\n.. And test\r\n```\r\nD:\\test>node .\\node_modules\\umabcio\\test.js\r\nhogehoge\r\n{ load: [Function: load],\r\n  get_total_time: [Function: get_total_time],\r\n  get_time: [Function: get_time],\r\n  set_time: [Function: set_time],\r\n  get_object_path_list: [Function: get_object_path_list],\r\n  get_mesh: [Function: get_mesh] }\r\n[ '/octopus_low/octopus_lowShape' ]\r\n{ min: 0, max: 2083 }\r\n```\r\n\r\n## License\r\nMIT\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uimac/alembic-src.git"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild --target=0.36.5 --arch=x64 --dist-url=https://atom.io/download/atom-shell --msvs_version=2013"
+  },
+  "version": "0.0.1"
+}
