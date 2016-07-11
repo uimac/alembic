@@ -1,6 +1,6 @@
 {
 	"name": "alembic",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "alembic io",
 	"main": "index.js",
 	"author": "Kazuma Hatta",
